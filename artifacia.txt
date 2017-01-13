@@ -1,0 +1,11 @@
+Christmas Image Search 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Implemented in Java, using Amazon ElasticSearch 5.1 for image-search.
++ Used the Predict API of Clarifai for tagging the images. 
++ URLs to images are in data.txt (feel free to add more images).
++ The system can run locally as follows:
+- run the elastic search server locally on default port 
+- run App.java with -Dlog4j.configurationFile=/christmas/src/main/resources/log4j2.properties
+- Under the UI folder open index.html and execute queries. 
+You should be able to see the image URLs in the results if the queries are success.
+The UI templates are used from an open-source project.  

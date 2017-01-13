@@ -1,0 +1,159 @@
+[2017-01-09T14:07:00,475][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-01-09T14:07:00,723][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] using [1] data paths, mounts [[Windows (C:)]], net usable_space [283.7gb], net total_space [431.4gb], spins? [unknown], types [NTFS]
+[2017-01-09T14:07:00,724][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-01-09T14:07:00,727][INFO ][o.e.n.Node               ] node name [u-4OjzO] derived from node ID [u-4OjzOyRai3ElJC1_Yd6w]; set [node.name] to override
+[2017-01-09T14:07:00,731][INFO ][o.e.n.Node               ] version[5.1.1], pid[5176], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2017-01-09T14:07:02,074][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [aggs-matrix-stats]
+[2017-01-09T14:07:02,076][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [ingest-common]
+[2017-01-09T14:07:02,077][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-expression]
+[2017-01-09T14:07:02,077][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-groovy]
+[2017-01-09T14:07:02,078][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-mustache]
+[2017-01-09T14:07:02,078][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-painless]
+[2017-01-09T14:07:02,078][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [percolator]
+[2017-01-09T14:07:02,079][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [reindex]
+[2017-01-09T14:07:02,080][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty3]
+[2017-01-09T14:07:02,081][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty4]
+[2017-01-09T14:07:02,083][INFO ][o.e.p.PluginsService     ] [u-4OjzO] no plugins loaded
+[2017-01-09T14:07:05,720][INFO ][o.e.n.Node               ] initialized
+[2017-01-09T14:07:05,721][INFO ][o.e.n.Node               ] [u-4OjzO] starting ...
+[2017-01-09T14:07:06,996][INFO ][o.e.t.TransportService   ] [u-4OjzO] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-01-09T14:07:11,246][INFO ][o.e.c.s.ClusterService   ] [u-4OjzO] new_master {u-4OjzO}{u-4OjzOyRai3ElJC1_Yd6w}{dPB6iABYStCYm3yERDgfsw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-01-09T14:07:11,302][INFO ][o.e.g.GatewayService     ] [u-4OjzO] recovered [0] indices into cluster_state
+[2017-01-09T14:07:11,760][INFO ][o.e.h.HttpServer         ] [u-4OjzO] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-01-09T14:07:11,760][INFO ][o.e.n.Node               ] [u-4OjzO] started
+[2017-01-09T16:19:18,540][INFO ][o.e.c.m.MetaDataCreateIndexService] [u-4OjzO] [christmas] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2017-01-09T16:19:19,163][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] create_mapping [image]
+[2017-01-09T16:19:19,968][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [image]
+[2017-01-09T16:49:03,129][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] create_mapping [images]
+[2017-01-09T16:49:03,877][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T17:14:52,797][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-01-09T17:14:52,799][INFO ][o.e.n.Node               ] [u-4OjzO] stopping ...
+[2017-01-09T17:14:52,835][INFO ][o.e.n.Node               ] [u-4OjzO] stopped
+[2017-01-09T17:14:52,836][INFO ][o.e.n.Node               ] [u-4OjzO] closing ...
+[2017-01-09T17:14:52,847][INFO ][o.e.n.Node               ] [u-4OjzO] closed
+[2017-01-09T17:15:01,455][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-01-09T17:15:01,574][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] using [1] data paths, mounts [[Windows (C:)]], net usable_space [282.4gb], net total_space [431.4gb], spins? [unknown], types [NTFS]
+[2017-01-09T17:15:01,575][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-01-09T17:15:01,637][INFO ][o.e.n.Node               ] node name [u-4OjzO] derived from node ID [u-4OjzOyRai3ElJC1_Yd6w]; set [node.name] to override
+[2017-01-09T17:15:01,642][INFO ][o.e.n.Node               ] version[5.1.1], pid[5556], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2017-01-09T17:15:03,012][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [aggs-matrix-stats]
+[2017-01-09T17:15:03,013][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [ingest-common]
+[2017-01-09T17:15:03,013][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-expression]
+[2017-01-09T17:15:03,013][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-groovy]
+[2017-01-09T17:15:03,014][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-mustache]
+[2017-01-09T17:15:03,014][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-painless]
+[2017-01-09T17:15:03,014][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [percolator]
+[2017-01-09T17:15:03,015][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [reindex]
+[2017-01-09T17:15:03,016][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty3]
+[2017-01-09T17:15:03,017][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty4]
+[2017-01-09T17:15:03,018][INFO ][o.e.p.PluginsService     ] [u-4OjzO] no plugins loaded
+[2017-01-09T17:15:06,929][INFO ][o.e.n.Node               ] initialized
+[2017-01-09T17:15:06,930][INFO ][o.e.n.Node               ] [u-4OjzO] starting ...
+[2017-01-09T17:15:07,929][INFO ][o.e.t.TransportService   ] [u-4OjzO] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-01-09T17:15:12,014][INFO ][o.e.c.s.ClusterService   ] [u-4OjzO] new_master {u-4OjzO}{u-4OjzOyRai3ElJC1_Yd6w}{jMx3Fpx0S4qTf4siNHTiCw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-01-09T17:15:12,354][INFO ][o.e.g.GatewayService     ] [u-4OjzO] recovered [1] indices into cluster_state
+[2017-01-09T17:15:12,791][INFO ][o.e.c.r.a.AllocationService] [u-4OjzO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[christmas][1]] ...]).
+[2017-01-09T17:15:13,436][INFO ][o.e.h.HttpServer         ] [u-4OjzO] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-01-09T17:15:13,438][INFO ][o.e.n.Node               ] [u-4OjzO] started
+[2017-01-09T17:17:35,486][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-01-09T17:17:35,588][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] using [1] data paths, mounts [[Windows (C:)]], net usable_space [283.4gb], net total_space [431.4gb], spins? [unknown], types [NTFS]
+[2017-01-09T17:17:35,589][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-01-09T17:17:35,661][INFO ][o.e.n.Node               ] node name [u-4OjzO] derived from node ID [u-4OjzOyRai3ElJC1_Yd6w]; set [node.name] to override
+[2017-01-09T17:17:35,664][INFO ][o.e.n.Node               ] version[5.1.1], pid[10392], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2017-01-09T17:17:36,982][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [aggs-matrix-stats]
+[2017-01-09T17:17:36,982][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [ingest-common]
+[2017-01-09T17:17:36,983][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-expression]
+[2017-01-09T17:17:36,983][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-groovy]
+[2017-01-09T17:17:36,983][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-mustache]
+[2017-01-09T17:17:36,983][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-painless]
+[2017-01-09T17:17:36,983][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [percolator]
+[2017-01-09T17:17:36,984][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [reindex]
+[2017-01-09T17:17:36,985][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty3]
+[2017-01-09T17:17:36,986][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty4]
+[2017-01-09T17:17:36,987][INFO ][o.e.p.PluginsService     ] [u-4OjzO] no plugins loaded
+[2017-01-09T17:17:40,060][INFO ][o.e.n.Node               ] initialized
+[2017-01-09T17:17:40,060][INFO ][o.e.n.Node               ] [u-4OjzO] starting ...
+[2017-01-09T17:17:41,300][INFO ][o.e.t.TransportService   ] [u-4OjzO] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-01-09T17:17:45,419][INFO ][o.e.c.s.ClusterService   ] [u-4OjzO] new_master {u-4OjzO}{u-4OjzOyRai3ElJC1_Yd6w}{R1F4_0WOTNCVqCIjX6cGEQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-01-09T17:17:45,701][INFO ][o.e.g.GatewayService     ] [u-4OjzO] recovered [1] indices into cluster_state
+[2017-01-09T17:17:46,413][INFO ][o.e.c.r.a.AllocationService] [u-4OjzO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[christmas][1], [christmas][3]] ...]).
+[2017-01-09T17:17:46,724][INFO ][o.e.h.HttpServer         ] [u-4OjzO] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-01-09T17:17:46,725][INFO ][o.e.n.Node               ] [u-4OjzO] started
+[2017-01-09T18:01:41,603][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-01-09T18:01:41,608][INFO ][o.e.n.Node               ] [u-4OjzO] stopping ...
+[2017-01-09T18:01:41,775][INFO ][o.e.n.Node               ] [u-4OjzO] stopped
+[2017-01-09T18:01:41,776][INFO ][o.e.n.Node               ] [u-4OjzO] closing ...
+[2017-01-09T18:01:41,793][INFO ][o.e.n.Node               ] [u-4OjzO] closed
+[2017-01-09T18:08:50,455][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-01-09T18:08:50,595][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] using [1] data paths, mounts [[Windows (C:)]], net usable_space [283.5gb], net total_space [431.4gb], spins? [unknown], types [NTFS]
+[2017-01-09T18:08:50,597][INFO ][o.e.e.NodeEnvironment    ] [u-4OjzO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-01-09T18:08:50,703][INFO ][o.e.n.Node               ] node name [u-4OjzO] derived from node ID [u-4OjzOyRai3ElJC1_Yd6w]; set [node.name] to override
+[2017-01-09T18:08:50,707][INFO ][o.e.n.Node               ] version[5.1.1], pid[5332], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2017-01-09T18:08:52,431][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [aggs-matrix-stats]
+[2017-01-09T18:08:52,432][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [ingest-common]
+[2017-01-09T18:08:52,433][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-expression]
+[2017-01-09T18:08:52,433][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-groovy]
+[2017-01-09T18:08:52,433][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-mustache]
+[2017-01-09T18:08:52,434][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [lang-painless]
+[2017-01-09T18:08:52,434][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [percolator]
+[2017-01-09T18:08:52,435][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [reindex]
+[2017-01-09T18:08:52,435][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty3]
+[2017-01-09T18:08:52,437][INFO ][o.e.p.PluginsService     ] [u-4OjzO] loaded module [transport-netty4]
+[2017-01-09T18:08:52,438][INFO ][o.e.p.PluginsService     ] [u-4OjzO] no plugins loaded
+[2017-01-09T18:08:57,480][INFO ][o.e.n.Node               ] initialized
+[2017-01-09T18:08:57,480][INFO ][o.e.n.Node               ] [u-4OjzO] starting ...
+[2017-01-09T18:08:59,472][INFO ][o.e.t.TransportService   ] [u-4OjzO] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-01-09T18:09:03,807][INFO ][o.e.c.s.ClusterService   ] [u-4OjzO] new_master {u-4OjzO}{u-4OjzOyRai3ElJC1_Yd6w}{pi-WiVllQ7efMXXE-nhwCg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-01-09T18:09:04,212][INFO ][o.e.g.GatewayService     ] [u-4OjzO] recovered [1] indices into cluster_state
+[2017-01-09T18:09:04,859][INFO ][o.e.c.r.a.AllocationService] [u-4OjzO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[christmas][1]] ...]).
+[2017-01-09T18:09:05,468][INFO ][o.e.h.HttpServer         ] [u-4OjzO] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-01-09T18:09:05,469][INFO ][o.e.n.Node               ] [u-4OjzO] started
+[2017-01-09T18:09:08,294][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:08,818][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:09,794][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:12,537][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:18,802][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:19,395][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:19,813][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:20,449][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:52,290][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:52,598][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:52,958][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:53,286][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:53,696][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:55,653][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:56,004][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:56,509][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:56,862][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:57,174][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:57,491][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:57,954][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:09:58,420][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:02,932][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:03,281][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:03,581][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:03,927][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:04,361][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:04,695][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:05,019][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:05,475][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:05,897][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:06,231][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:06,520][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:06,840][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:07,128][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:07,457][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:08,000][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:08,306][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:08,623][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:09,002][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:10,124][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:10,508][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:10,968][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:11,411][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:13,060][INFO ][o.e.c.m.MetaDataMappingService] [u-4OjzO] [christmas/Wrx0ledKQuitdGWszkF0uQ] update_mapping [images]
+[2017-01-09T18:10:24,560][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-01-09T18:10:24,564][INFO ][o.e.n.Node               ] [u-4OjzO] stopping ...
+[2017-01-09T18:10:25,280][INFO ][o.e.n.Node               ] [u-4OjzO] stopped
+[2017-01-09T18:10:25,281][INFO ][o.e.n.Node               ] [u-4OjzO] closing ...
+[2017-01-09T18:10:25,296][INFO ][o.e.n.Node               ] [u-4OjzO] closed
